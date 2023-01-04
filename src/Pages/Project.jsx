@@ -17,7 +17,7 @@ function Project() {
         },
         // {
         //     name: "Rodan+Fields Clone",
-        //     img: "https://i.ibb.co/GckpFrQ/Screenshot-187.png",
+        //     img: "https://i.ibb.co/GckpFrQ/Screenshot-1.png",
         //     type: "Collaborative",
         //     desc: "Rodan + Fields is a skincare website which allows users to buy Best Skincare products  and also helps to cure skin diseases from expert. ",
         //     techstack: "JavaScript, html,css",
