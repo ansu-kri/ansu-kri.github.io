@@ -51,7 +51,7 @@ function Homepage(){
                                 />
                             </Box>
                             <Button _hover={{transform:"scale(1.1)", bg:"#92bcb5", color:darkTheme==="dark"? "black" : "black"}} mt="10px" p={["15px 15px", "20px 20px", "25px 25px"]} fontSize={["md", "lg", "xl"]} bg={darkTheme==="dark"? "#48B3E9 " :"#48B3E9 "} color={darkTheme==="dark"? "white" : "white"}  variant='solid' leftIcon={<DownloadIcon />}>
-                            <a href="https://drive.google.com/uc?export=download&id=1fooZ3kgzpkPTbokIE3Eyzri0bz9II458"  >Resume</a></Button>
+                            <a href="https://drive.google.com/uc?export=download&id=1YfATExF4w-u0N-7LiCKyCDq0oar5cXHn"  >Resume</a></Button>
                             <Box mt="15px" gap="15px" display="flex" color="#13022c">
                                 <a href="https://github.com/ansu-kri" rel="noreferrer" target="_blank"><Button _hover={{transform:"scale(1.13)",bg:"#92bcb5",color:"black"}} pr="0px"pl="5px" fontSize={["2xl", "3xl", "4xl"]} bg={darkTheme==="dark"? "#48B3E9 " : "#48B3E9 "} color={darkTheme==="dark"? "white" : "white"}  variant='solid' leftIcon={<AiOutlineGithub />}></Button></a>
                                 <a href="https://www.linkedin.com/in/iamansu/" rel="noreferrer" target="_blank"><Button _hover={{transform:"scale(1.13)",color:"black", bg:"#92bcb5"}} pr="0px" pl="5px" fontSize={["2xl", "3xl", "4xl"]} bg={darkTheme==="dark"? "#48B3E9 " : "#48B3E9 "} color={darkTheme==="dark"? "white" : "white"}  variant='solid' leftIcon={<AiOutlineLinkedin />}></Button></a>
