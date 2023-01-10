@@ -16,7 +16,7 @@ function Project() {
             gitlink: "https://github.com/ansu-kri/half-top-1982"
         },
         {
-            name: "Rodan+Fields Clone",
+            name: "E-Commerce",
             img: "https://i.ibb.co/1sP3hpM/Screenshot-6.png",
             type: "Individual",
             desc: "clone of the leading cosmetics and skincare brand website front end. Built on HTML, CSS, and JavaScript. It's an individual project completed and executed in 5 days ",
@@ -25,15 +25,15 @@ function Project() {
             gitlink: "https://github.com/ansu-kri/ecommerce"
         },
 
-        // {
-        //     name: "Lose It Clone",
-        //     img: "https://i.ibb.co/8B0xKSr/Screenshot-195.png",
-        //     type: "Individual",
-        //     desc: "Lose It! is a calorie counter & food diary diet app that helps you stick to your diet and achieve weight loss that fits! It was created with the goal of helping members reach a healthy weight by providing them with the tools they need for success.",
-        //     techstack: "React, CHakra UI, JavaScript, Css",
-        //     livelink: "https://instinctive-start-5063.vercel.app/",
-        //     gitlink: "https://github.com/Rahulzhp/instinctive-start-5063"
-        // },
+        {
+            name: "Dermstore",
+            img: "https://i.ibb.co/HT5pLdv/Screenshot-5.png",
+            type: "Collaborative",
+            desc: "DermStore! provides skin care creams, gels, lotions, moisturizers, supplements, and many others. It also offers spa treatments and salon services.",
+            techstack: "Html, JavaScript, Css",
+            livelink: "https://remarkable-liger-314d1c.netlify.app/",
+            gitlink: "https://github.com/furqansup/curvy-plant-804"
+        },
         // {
         //     name: "Recipe App",
         //     img: "",
