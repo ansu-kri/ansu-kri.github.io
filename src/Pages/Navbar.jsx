@@ -54,7 +54,7 @@ function Navbar(){
                 <Link display="flex">
                     <AnchorLink href='#Contact'><Text color={darkTheme==="dark"?  "gray":"white" } fontFamily="inherit" fontWeight="500" fontSize={['sm', 'sm', 'lg']}>Contact</Text></AnchorLink>
                 </Link>
-                <Text color={darkTheme==="dark"?  "gray":"white" } fontFamily="inherit" fontWeight="500" fontSize={['sm', 'sm', 'lg']}><a href="https://drive.google.com/file/d/1YfATExF4w-u0N-7LiCKyCDq0oar5cXHn/view?usp=sharing">Resume</a></Text>
+                <Text color={darkTheme==="dark"?  "gray":"white" } fontFamily="inherit" fontWeight="500" fontSize={['sm', 'sm', 'lg']}><a href="https://drive.google.com/file/d/1gfv2OaBRb47cBObezgUvNJBVOmcVdMmv/view?usp=sharing">Resume</a></Text>
             </Box>
             
             
@@ -76,7 +76,7 @@ function Navbar(){
                 <Link display="flex">
                     <AnchorLink href='#Contact'><Text color={darkTheme==="dark"?  "gray":"white" } fontFamily="inherit" fontWeight="500" fontSize={['sm', 'sm', 'lg']}>Contact</Text></AnchorLink>
                 </Link>
-                <Text color={darkTheme==="dark"?  "gray":"white" } fontFamily="inherit" fontWeight="500" fontSize={['sm', 'sm', 'lg']}><a href="https://drive.google.com/file/d/1YfATExF4w-u0N-7LiCKyCDq0oar5cXHn/view?usp=sharing">Resume</a></Text>
+                <Text color={darkTheme==="dark"?  "gray":"white" } fontFamily="inherit" fontWeight="500" fontSize={['sm', 'sm', 'lg']}><a href="https://drive.google.com/file/d/1gfv2OaBRb47cBObezgUvNJBVOmcVdMmv/view?usp=sharing">Resume</a></Text>
             </Box>: ""
             }
             
