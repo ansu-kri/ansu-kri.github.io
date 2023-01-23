@@ -11,7 +11,7 @@ function Project() {
             img: "https://i.ibb.co/cDZ0bW1/Screenshot-4.png",
             type: "Collaborative",
             desc: "A Online retail store where users can buy there day to day and special occasion need of the Makeup, Skin care, Hair care, Personal care, Mom and Baby care, Fragrance and Ayurveda products.",
-            techstack: "Html, JavaScript, Css",
+            techstack: "HTML| CSS| JAVASCRIPT",
             livelink: "https://luminous-biscuit-a0fc06.netlify.app",
             gitlink: "https://github.com/ansu-kri/half-top-1982"
         },
@@ -19,10 +19,19 @@ function Project() {
             name: "E-Commerce",
             img: "https://i.ibb.co/1sP3hpM/Screenshot-6.png",
             type: "Individual",
-            desc: "clone of the leading cosmetics and skincare brand website front end. Built on HTML, CSS, and JavaScript. It's an individual project completed and executed in 5 days ",
-            techstack: "JavaScript, html,css",
+            desc: "Clone of the leading cosmetics and skincare brand website front end. Built on HTML, CSS, and JavaScript. It's an individual project completed and executed in 5 days ",
+            techstack: "HTML| CSS| JAVASCRIPT",
             livelink: "https://gilded-liger-113101.netlify.app",
             gitlink: "https://github.com/ansu-kri/ecommerce"
+        },
+        {
+            name: "YouTube App",
+            img: "https://i.ibb.co/SdD9Fqh/Screenshot-10.png",
+            type: "Individual",
+            desc: "Youtube Clone where user can search any songs, movies, music and many more. It's an individual project completed and executed in 5 days",
+            techstack: "HTML| CSS| JAVASCRIPT",
+            livelink: "https://whimsical-strudel-88606e.netlify.app/",
+            gitlink: "https://github.com/ansu-kri/youtube-app"
         },
 
         {
@@ -30,7 +39,7 @@ function Project() {
             img: "https://i.ibb.co/HT5pLdv/Screenshot-5.png",
             type: "Collaborative",
             desc: "DermStore! provides skin care creams, gels, lotions, moisturizers, supplements, and many others. It also offers spa treatments and salon services.",
-            techstack: "Html, JavaScript, Css",
+            techstack: "HTML| CSS| JAVASCRIPT",
             livelink: "https://remarkable-liger-314d1c.netlify.app/",
             gitlink: "https://github.com/furqansup/curvy-plant-804"
         },
@@ -57,9 +66,9 @@ function Project() {
             <Box display="grid" gap="50px" gridTemplateColumns="repeat(1, 1fr)">
 
                 {projectdata && projectdata.map((project) => {
-                    return <Box className="projectouter">
+                    return <Box className="projectouter" height={"340px"} width="90%" borderRadius={"10px"} margin="auto">
                         <Box display={["inline", "inline", "flex"]} justifyContent="space-between">
-                            <Image w={["100%", "97%", "59%"]} m="auto" src={project.img} alt="project-thumbnail" />
+                            <Image w={["100%", "60%", "47%"]} m="auto" src={project.img} alt="project-thumbnail" />
                             <Box w={["100%", "97%", "40%"]} m="auto">
                                 <Text fontSize={["2xl", "3xl", "4xl"]}>{project.name}</Text>
                                 <Text w={["100%", "90%", "70%"]} m="auto" fontFamily="inherit" textAlign="justify" fontSize={["sm", "md", "md"]}>{project.desc}
