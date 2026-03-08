@@ -1,17 +1,25 @@
-import { Box, Button, Image, Text } from "@chakra-ui/react";
+import { Box, Button, Image, Text, Stack } from "@chakra-ui/react";
 import { BsGithub } from "react-icons/bs";
 import { BiLinkExternal } from "react-icons/bi";
 
-
 function Project() {
 
-    let projectdata = [
+    const projectdata = [
+        {
+            name: "Multi-Tenant SaaS Invoice & Billing Platform",
+            img: "/dashboard.png",
+            type: "Individual",
+            desc: "A full-stack SaaS invoice and billing platform where businesses can create invoices, manage customers, track payments and handle subscriptions. Built with secure authentication and Razorpay payment integration supporting multi-tenant architecture.",
+            techstack: "Next.js | Node.js | Express.js | MongoDB | Razorpay",
+            livelink: "https://invoice-saas-sand.vercel.app/login",
+            gitlink: "https://github.com/ansu-kri/invoice--saas"
+        },
         {
             name: "Beauty-Bebo Clone",
             img: "https://i.ibb.co/cDZ0bW1/Screenshot-4.png",
             type: "Collaborative",
-            desc: "A Online retail store where users can buy there day to day and special occasion need of the Makeup, Skin care, Hair care, Personal care, Mom and Baby care, Fragrance and Ayurveda products.",
-            techstack: "HTML| CSS| JAVASCRIPT",
+            desc: "An e-commerce platform where users can browse and purchase beauty and skincare products including makeup, hair care, fragrance and wellness products.",
+            techstack: "HTML | CSS | JavaScript",
             livelink: "https://luminous-biscuit-a0fc06.netlify.app",
             gitlink: "https://github.com/ansu-kri/half-top-1982"
         },
@@ -43,41 +51,116 @@ function Project() {
             livelink: "https://remarkable-liger-314d1c.netlify.app/",
             gitlink: "https://github.com/furqansup/curvy-plant-804"
         },
-    ]
+    ];
 
+    return (
 
-    return <Box id="Project" w="full" bg="#13022C" color="#ffffff" p="30px 0px" textAlign="center" pt="100px">
-        <Box w="85%" m="auto">
-            <Text mb="25px" textAlign="center" fontWeight="400" fontSize={["3xl", "4xl", "5xl"]}>Projects</Text>
-            <Box display="grid" gap="50px" gridTemplateColumns="repeat(1, 1fr)">
+        <Box id="Project" bg="#13022C" py="90px" color="white">
 
-                {projectdata && projectdata.map((project) => {
-                    return <Box className="projectouter" height={"340px"} width="90%" borderRadius={"10px"} margin="auto">
-                        <Box display={["inline", "inline", "flex"]} justifyContent="space-between">
-                            <Image w={["100%", "60%", "47%"]} m="auto" src={project.img} alt="project-thumbnail" />
-                            <Box w={["100%", "97%", "40%"]} m="auto">
-                                <Text fontSize={["2xl", "3xl", "4xl"]}>{project.name}</Text>
-                                <Text w={["100%", "90%", "70%"]} m="auto" fontFamily="inherit" textAlign="justify" fontSize={["sm", "md", "md"]}>{project.desc}
-                                    <Text fontSize={["sm", "md", "md"]} fontWeight="bold" >Project type :-{project.type} </Text>
+            <Box w={["92%", "88%", "80%"]} m="auto">
 
+                <Text
+                    fontSize={["3xl", "4xl", "5xl"]}
+                    textAlign="center"
+                    mb="60px"
+                    fontWeight="bold"
+                >
+                    Projects
+                </Text>
+
+                <Box
+                    display="grid"
+                    gap="40px"
+                    gridTemplateColumns={[
+                        "1fr",
+                        "repeat(2,1fr)",
+                        "repeat(3,1fr)"
+                    ]}
+                >
+
+                    {projectdata.map((project, index) => (
+
+                        <Box
+                            key={index}
+                            bg="#1c0d3a"
+                            borderRadius="14px"
+                            overflow="hidden"
+                            boxShadow="0 10px 25px rgba(0,0,0,0.3)"
+                            transition="all 0.35s ease"
+                            _hover={{
+                                transform: "translateY(-10px)",
+                                boxShadow: "0 20px 40px rgba(0,0,0,0.6)"
+                            }}
+                        >
+
+                            <Image
+                                src={project.img}
+                                alt={project.name}
+                                h="200px"
+                                w="100%"
+                                objectFit="cover"
+                            />
+
+                            <Box p="18px">
+
+                                <Text fontSize="xl" fontWeight="bold" mb="6px">
+                                    {project.name}
                                 </Text>
-                                <Box textAlign="left" m="auto" p={["2px 0px", "2px 7px", "2px 1px"]} w={["99%", "93%", "70%"]}>
 
-                                    <Text fontSize={["13px", "15px", "16px"]} fontWeight="bold">Techstacks :-{project.techstack}</Text>
-                                </Box>
-                                <Box display="flex" w={["100%", "80%", "100%"]} m="auto" justifyContent="space-around">
-                                    <Button as='a' target='_blank' href={project.livelink} _hover={{ bg: "#4E406F", color: "#ffffff" }} mt="10px" p={["5px 5px", "10px 10px", "10px 10px"]} fontSize={["md", "lg", "lg"]} bg="#C1B6DB" color="#13022c" border="none" variant='solid' leftIcon={<BiLinkExternal />}>Live</Button>
-                                    <Button as='a' target='_blank' href={project.gitlink} _hover={{ bg: "#4E406F", color: "#ffffff" }} mt="10px" p={["5px 5px", "10px 10px", "10px 10px"]} fontSize={["md", "lg", "lg"]} bg="#C1B6DB" color="#13022c" border="none" variant='solid' leftIcon={<BsGithub />}>Github</Button>
-                                </Box>
+                                <Text fontSize="sm" mb="10px" color="gray.300">
+                                    {project.desc}
+                                </Text>
+
+                                <Text fontSize="sm" fontWeight="bold" mb="4px">
+                                    Project Type: {project.type}
+                                </Text>
+
+                                <Text fontSize="sm" mb="12px">
+                                    Tech Stack: {project.techstack}
+                                </Text>
+
+                                <Stack direction="row" spacing={4}>
+
+                                    <Button
+                                        as="a"
+                                        href={project.livelink}
+                                        target="_blank"
+                                        size="sm"
+                                        leftIcon={<BiLinkExternal />}
+                                        bg="#7B6EF6"
+                                        _hover={{ bg: "#6B5CF6" }}
+                                    >
+                                        Live
+                                    </Button>
+
+                                    <Button
+                                        as="a"
+                                        href={project.gitlink}
+                                        target="_blank"
+                                        size="sm"
+                                        leftIcon={<BsGithub />}
+                                        bg="gray.700"
+                                        _hover={{ bg: "gray.600" }}
+                                    >
+                                        Github
+                                    </Button>
+
+                                </Stack>
+
                             </Box>
-                        </Box>
-                    </Box>
 
-                })}
+                        </Box>
+
+                    ))}
+
+                </Box>
 
             </Box>
+
         </Box>
-    </Box>
+
+    );
+
 }
 
 export default Project;

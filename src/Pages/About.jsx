@@ -8,11 +8,17 @@ function About() {
             <Box w={["90%", "80%", "46%"]} m="auto">
                 <Text textAlign="center" fontWeight="400" mt="7px" fontSize={["3xl", "4xl", "5xl"]}>About Me</Text>
                 <Text fontFamily="inherit" textAlign="justify" mt="10px" fontSize={["15px", "15px", "17px"]}>
-                    I’m a React.js Frontend Developer with 4 years of experience building scalable, responsive, and high-performance web applications. I specialize in React.js, Next.js, JavaScript (ES6+), React Hooks, Redux Toolkit, and modern UI development with Tailwind CSS.
+                    ISoftware Engineer with 4+ years of experience building scalable and responsive web applications using React.js, Next.js, and JavaScript (ES6+). Skilled in developing reusable UI components, managing complex state with Redux Toolkit, integrating REST APIs, and optimizing frontend performance for smooth user experiences.
 
-                    I create reusable components, manage complex state, integrate APIs, and optimize frontend performance to deliver intuitive and engaging user experiences. With additional experience in Node.js and MongoDB, I can collaborate effectively in full-stack projects when needed.
+                    Experienced in modern UI development with Tailwind CSS and component-driven architecture. I also have working knowledge of Node.js, Express.js, and MongoDB, enabling effective collaboration on full-stack applications.
 
-                    I’m an immediate joiner, passionate about building user-centric, product-driven applications, and looking forward to contributing to a strong engineering team.
+                    Recently built a Multi-Tenant SaaS Invoice & Billing Platform with authentication, role-based access control, and payment integration. I’m passionate about building user-centric, product-driven applications and continuously improving engineering practices.
+                    <br></br>
+                    Tech Stack:
+                    React.js | Next.js | JavaScript | TypeScript
+                    Node.js | Express.js | MongoDB
+                    Redux Toolkit | Tailwind CSS
+
                 </Text>
             </Box>
 

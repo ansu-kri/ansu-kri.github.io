@@ -1,6 +1,6 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
-import { Row } from "react-bootstrap";
+import { Row } from "react-bootstrap";     
 import { Box, Text,Image } from "@chakra-ui/react";
 
 function Calender() {
