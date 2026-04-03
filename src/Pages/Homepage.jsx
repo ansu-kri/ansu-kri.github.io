@@ -53,7 +53,7 @@ function Homepage() {
                             />
                         </Box>
                         <Button _hover={{ transform: "scale(1.1)", bg: "#92bcb5", color: darkTheme === "dark" ? "black" : "black" }} mt="10px" p={["15px 15px", "20px 20px", "25px 25px"]} fontSize={["md", "lg", "xl"]} bg={darkTheme === "dark" ? "#48B3E9 " : "#48B3E9 "} color={darkTheme === "dark" ? "white" : "white"} variant='solid' leftIcon={<DownloadIcon />}>
-                            <a href="https://drive.google.com/uc?export=download&id=1WR83j28XLGbPJ4OVsKbAs58ejLeFNh39"  >Resume</a></Button>
+                            <a href="https://drive.google.com/uc?export=download&id=1k22GtbzM6Z5-KIzn16jq8PRGq1aBRVyK">Resume</a></Button>
                         <Box mt="15px" gap="15px" display="flex" color="#13022c">
                             <a href="https://github.com/ansu-kri" rel="noreferrer" target="_blank"><Button _hover={{ transform: "scale(1.13)", bg: "#92bcb5", color: "black" }} pr="0px" pl="5px" fontSize={["2xl", "3xl", "4xl"]} bg={darkTheme === "dark" ? "#48B3E9 " : "#48B3E9 "} color={darkTheme === "dark" ? "white" : "white"} variant='solid' leftIcon={<AiOutlineGithub />}></Button></a>
                             <a href="https://www.linkedin.com/in/iamansu/" rel="noreferrer" target="_blank"><Button _hover={{ transform: "scale(1.13)", color: "black", bg: "#92bcb5" }} pr="0px" pl="5px" fontSize={["2xl", "3xl", "4xl"]} bg={darkTheme === "dark" ? "#48B3E9 " : "#48B3E9 "} color={darkTheme === "dark" ? "white" : "white"} variant='solid' leftIcon={<AiOutlineLinkedin />}></Button></a>
@@ -62,7 +62,7 @@ function Homepage() {
                     {/* <Image position="absolute" top={["-10", "-10", "-20"]} left={["", "", "-8"]} src="https://www.wallpaperuse.com/wallp/56-561836_m.png" alt="img" /> */}
                 </Box>
                 <Box _hover={{ transform: "scale(1.03)", transitionProperty: "transform", transitionDuration: "0.5s" }} bg={darkTheme === "dark" ? "#C4A9EC" : "white"} p="3px" w={["43%", "30%", "31%"]} m="20px auto 40px auto" rounded={["50%", "50%", "50%"]}>
-                    <Image boxShadow="xl" w="100%" rounded={["50%", "50%", "50%"]} src="https://media.licdn.com/dms/image/v2/D5603AQHhbp1753UVQw/profile-displayphoto-shrink_800_800/B56ZboNDbyGgAg-/0/1747652459272?e=1773878400&v=beta&t=kVFwl9L720jlm8cuoyYoa9hZGf9GvSwA_OlEmdHsIdk" alt="img" />
+                    <Image boxShadow="xl" w="100%" rounded={["50%", "50%", "50%"]} src="https://media.licdn.com/dms/image/v2/D5603AQHhbp1753UVQw/profile-displayphoto-shrink_400_400/B56ZboNDbyGgAk-/0/1747652459272?e=1776902400&v=beta&t=h2CgkfWoTi6uZPukD1KGJusoNxaK0tE3q7tuN-nXte0" alt="img" />
                 </Box>
                 {/* <Image w="400px" h="200px" src="https://res.cloudinary.com/practicaldev/image/fetch/s--2bZIjPGC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/d4tvukbt5mra37cvwklk.gif" alt="img" /> */}
             </Box>
