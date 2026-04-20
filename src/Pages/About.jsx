@@ -8,7 +8,7 @@ function About() {
             <Box w={["90%", "80%", "46%"]} m="auto">
                 <Text textAlign="center" fontWeight="400" mt="7px" fontSize={["3xl", "4xl", "5xl"]}>About Me</Text>
                 <Text fontFamily="inherit" textAlign="justify" mt="10px" fontSize={["15px", "15px", "17px"]}>
-                    ISoftware Engineer with 4+ years of experience building scalable and responsive web applications using React.js, Next.js, and JavaScript (ES6+). Skilled in developing reusable UI components, managing complex state with Redux Toolkit, integrating REST APIs, and optimizing frontend performance for smooth user experiences.
+                    ISoftware Engineer with 3+ years of experience building scalable and responsive web applications using React.js, Next.js, and JavaScript (ES6+). Skilled in developing reusable UI components, managing complex state with Redux Toolkit, integrating REST APIs, and optimizing frontend performance for smooth user experiences.
 
                     Experienced in modern UI development with Tailwind CSS and component-driven architecture. I also have working knowledge of Node.js, Express.js, and MongoDB, enabling effective collaboration on full-stack applications.
 
